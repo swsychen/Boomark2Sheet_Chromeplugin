@@ -1,4 +1,7 @@
 
+var spreadsheetId = 'YOUR_SPREADSHEET_ID'; // Replace with your actual spreadsheet ID
+var range = 'bookmarks!A:B'; // Adjust based on your needs
+
 
 function getAuthToken() {
     return new Promise((resolve, reject) => {
@@ -82,8 +85,7 @@ function clearSheet(spreadsheetId, range, accessToken) {
 
 
 function writeToSheet(data, accessToken) {
-    var spreadsheetId = 'YOUR_SPREADSHEET_ID'; // Replace with your actual spreadsheet ID
-    var range = 'bookmarks!A:B'; // Adjust based on your needs
+
     
     // First, clear the sheet
     clearSheet(spreadsheetId, range, accessToken).then(() => {
