@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Bookmark Sync to Google Sheets",
+    "version": "1.0",
+    "permissions": ["bookmarks", "identity", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "oauth2": {
+      "client_id": "YOUR_CLIENT_ID",
+      "scopes": [
+        "https://www.googleapis.com/auth/spreadsheets"
+      ]
+    },
+    "action": {
+      "default_popup": "popup.html"
+      
+    }
+    
+  }
+  
