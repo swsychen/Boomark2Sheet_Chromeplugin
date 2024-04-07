@@ -1,3 +1,8 @@
+//
+// Copyright (c) 2024 swsychen.
+// All rights reserved. Licensed under the MIT license.
+// See LICENSE file in the project root for details.
+//
 
 var spreadsheetId = 'YOUR_SPREADSHEET_ID'; // Replace with your actual spreadsheet ID
 var range = 'bookmarks!A:B'; // Adjust based on your needs
