@@ -5,7 +5,7 @@
 //
 
 var spreadsheetId = 'YOUR_SPREADSHEET_ID'; // Replace with your actual spreadsheet ID
-var range = 'bookmarks!A:B'; // Adjust based on your needs
+var range = 'bookmarks!A:C'; // Adjust based on your needs
 
 
 function getAuthToken() {
